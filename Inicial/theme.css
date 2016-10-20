@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bungee Inline'; /*a name to be used later*/
+    src: url('https://fonts.googleapis.com/css?family=Bungee+Inline'); /*URL to font*/
+}
+
+body {
+    background-color: lightblue;
+	background-image: url("fondo.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+}
+.boton{
+	background-color: #3333ff;
+	border: 12px #000066;
+	color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
