@@ -15,5 +15,6 @@
 	
 		if($Conexion->connect_error) die("Fallo!! " . $Conexion->connect_error);
 		echo "Houston la misión ha sido un exito <br />" ;
+		 return $Conexion;
 	}
 ?>
